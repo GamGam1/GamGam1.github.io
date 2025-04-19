@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+.topPage{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color:darkseagreen;
+    height: 50px;
+    
+}
+
+.topPage span{
+    font-size: 40px;
+}
+
+.topPage li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.topPage a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.1s ease;
+}
+
+.topPage li :hover{
+    color: rgb(255, 255, 255);
+}
+
+.Middle{
+    display: flex;
+    align-items: center;
+}
+
+.Middle .pfp{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 50px;    
+}
+.Middle h1{
+    font-size: 40px;
+    height: 300px;
+}

@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0;
+    text-align: center;
 }
 .topPage{
     display:flex ;
@@ -52,6 +53,41 @@ body{
     font-size: 30px;
 }
 
+.exph1{
+    text-decoration: underline overline;
+    text-decoration-color: darkgreen;
+    text-decoration-thickness: 5px;
+}
+
+.projinfo{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.boxinfo{
+    border-style: outset;
+    border-color: darkgrey;
+    padding: 1rem;
+    width: 400px;
+}
+
+.boxinfo a{
+    color: cadetblue;
+    font-size: large;
+}
+    
+
+.tag span{
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    background-color: #eee;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+  }
 
 
 

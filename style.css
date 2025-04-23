@@ -73,6 +73,10 @@ body{
     width: 400px;
 }
 
+.boxinfo p{
+    font-size: small;
+}
+
 .boxinfo a{
     color: cadetblue;
     font-size: large;
